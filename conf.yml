@@ -85,6 +85,13 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_702_googleclassroom
+      - title: Felice Search
+        description: Felice Google Search
+        icon: https://i.imgur.com/OKKtilZ.png
+        url: https://felice-search-engine.vercel.app/
+        target: newtab
+        statusCheck: true
+        id: 2_702_felicesearch
   - name: Mouse Practice
     icon: fas fa-computer-mouse
     displayData:

@@ -61,7 +61,7 @@ appConfig:
       background: '#202020'
       background-darker: '#5c90eb'
 sections:
-  - name: General
+  - name: 1.General
     displayData:
       sortBy: default
       rows: 1
@@ -76,7 +76,7 @@ sections:
         url: https://sites.google.com/felice.ed.jp/computerclass/home
         target: newtab
         statusCheck: true
-        id: 0_702_computerclasswebsite
+        id: 0_797_computerclasswebsite
       - title: Google Classroom
         description: Activities and Student Work
         icon: >-
@@ -84,16 +84,17 @@ sections:
         url: https://classroom.google.com/u/0/
         target: newtab
         statusCheck: true
-        id: 1_702_googleclassroom
+        id: 1_797_googleclassroom
       - title: Felice Search
         description: Felice Google Search
         icon: https://i.imgur.com/OKKtilZ.png
         url: https://felice-search-engine.vercel.app/
         target: newtab
         statusCheck: true
-        id: 2_702_felicesearch
-  - name: Mouse Practice
-    icon: fas fa-computer-mouse
+        id: 2_797_felicesearch
+    icon: 🤖
+  - name: 2.Mouse Practice
+    icon: 🖱️
     displayData:
       sortBy: default
       rows: 1
@@ -107,7 +108,7 @@ sections:
         url: https://mousepractice.gfa-scratchlab.com/
         target: newtab
         statusCheck: true
-        id: 0_1364_mousepractice
+        id: 0_1460_mousepractice
       - title: 2. Mouse Accuracy
         description: Improve Mouse Accuracy
         icon: >-
@@ -115,7 +116,7 @@ sections:
         url: https://mouseaccuracy.com/
         target: newtab
         statusCheck: true
-        id: 1_1364_mouseaccuracy
+        id: 1_1460_mouseaccuracy
       - title: 3. Dragon Drop
         description: Drag n Drop the dragon
         icon: >-
@@ -123,9 +124,9 @@ sections:
         url: https://www.roomrecess.com/games/DragonDrop/play.html
         target: newtab
         statusCheck: true
-        id: 2_1364_dragondrop
-  - name: Typing
-    icon: fas fa-keyboard
+        id: 2_1460_dragondrop
+  - name: 3.Typing
+    icon: ⌨️
     displayData:
       sortBy: default
       rows: 1
@@ -140,7 +141,7 @@ sections:
         url: https://typetastic.com/learn.html#unit1
         target: newtab
         statusCheck: true
-        id: 0_635_typetastic
+        id: 0_732_typetastic
       - title: 2. Gunma Felice Typing Club
         description: Typing Lessons
         icon: >-
@@ -148,16 +149,16 @@ sections:
         url: https://gunma-felice.typingclub.com/
         target: newtab
         statusCheck: true
-        id: 1_635_gunmafelicetypingclub
+        id: 1_732_gunmafelicetypingclub
       - title: 3. Monkey Type
         description: Quick Typing Practice
         icon: https://avatars.githubusercontent.com/u/104658077?s=280&v=4
         url: https://gfa-typing.web.app/
         target: newtab
         statusCheck: true
-        id: 2_635_monkeytype
-  - name: Programming
-    icon: fas fa-code
+        id: 2_732_monkeytype
+  - name: 4.Programming
+    icon: 👨‍💻
     items:
       - title: Turbo Scratch
         description: Scratch Programming
@@ -166,7 +167,7 @@ sections:
         url: https://scratch.gfa-scratchlab.com/
         target: newtab
         statusCheck: true
-        id: 0_1155_turboscratch
+        id: 0_1253_turboscratch
       - title: Code.org
         description: Computer Science Curriculum
         icon: >-
@@ -174,7 +175,7 @@ sections:
         url: https://studio.code.org/users/sign_in
         target: newtab
         statusCheck: true
-        id: 1_1155_codeorg
+        id: 1_1253_codeorg
       - title: Lego Spike
         description: Web version of Lego Spike
         icon: >-
@@ -182,22 +183,22 @@ sections:
         url: https://spike.legoeducation.com/
         target: newtab
         statusCheck: true
-        id: 2_1155_legospike
+        id: 2_1253_legospike
       - title: Google Sites
         description: Make a Website
         icon: https://img.icons8.com/color/512/google-sites--v2.png
         url: https://sites.google.com/?tgif=c
         target: newtab
         statusCheck: true
-        id: 3_1155_googlesites
+        id: 3_1253_googlesites
     displayData:
       sortBy: default
       rows: 1
       cols: 1
       collapsed: true
       hideForGuests: false
-  - name: Designing & Internet Safety
-    icon: fas fa-pen
+  - name: 5.Designing & Internet Safety
+    icon: 🎨🌐
     displayData:
       sortBy: default
       rows: 1
@@ -210,7 +211,7 @@ sections:
         icon: https://freelogopng.com/images/all_img/1656733807canva-icon-png.png
         url: https://www.canva.com/
         target: newtab
-        id: 0_2515_canva
+        id: 0_2614_canva
       - title: Internet Awesome
         description: Internet Safety Game
         icon: >-
@@ -218,9 +219,9 @@ sections:
         url: https://beinternetawesome.withgoogle.com/en_us/interland
         target: newtab
         statusCheck: true
-        id: 1_2515_internetawesome
-  - name: Productivity Tools
-    icon: fas  fa-industry
+        id: 1_2614_internetawesome
+  - name: 6.Productivity Tools
+    icon: 📈
     displayData:
       sortBy: default
       rows: 1
@@ -235,7 +236,7 @@ sections:
         url: https://docs.google.com/document/u/0/?tgif=d
         target: newtab
         statusCheck: true
-        id: 0_1863_googledocs
+        id: 0_1963_googledocs
       - title: Google Sheets
         description: Create Spreadsheets
         icon: >-
@@ -243,9 +244,9 @@ sections:
         url: https://docs.google.com/spreadsheets/u/0/?tgif=c
         target: newtab
         statusCheck: true
-        id: 1_1863_googlesheets
-  - name: AI - Machine Learning
-    icon: fas fa-microchip-ai
+        id: 1_1963_googlesheets
+  - name: 7.AI - Machine Learning
+    icon: 🇦🇮
     displayData:
       sortBy: default
       rows: 1
@@ -260,4 +261,4 @@ sections:
         url: https://teachablemachine.withgoogle.com/
         target: newtab
         statusCheck: true
-        id: 0_1788_teachablemachinebygoogle
+        id: 0_1889_teachablemachinebygoogle

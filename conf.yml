@@ -1,6 +1,6 @@
 pageInfo:
   title: Computer Class Dashboard
-  description: Welcome to Computer Class Dashboard
+  description: All your web apps in one dashboard
   navLinks: []
   logo: ''
   footerText: Computer Class Dashboard 2025
@@ -33,9 +33,10 @@ appConfig:
   widgetsAlwaysUseProxy: false
   webSearch:
     disableWebSearch: false
-    searchEngine: duckduckgo
-    openingMethod: newtab
+    searchEngine: custom
+    openingMethod: modal
     searchBangs: {}
+    customSearchEngine: search.gfa-scratchlab.com
   enableFontAwesome: true
   enableMaterialDesignIcons: false
   hideComponents:
@@ -54,13 +55,18 @@ appConfig:
   disableUpdateChecks: false
   disableSmartSort: false
   enableErrorReporting: false
+  customColors:
+    dashy-docs:
+      primary: '#f5f6f7'
+      background: '#202020'
+      background-darker: '#5c90eb'
 sections:
   - name: General
     displayData:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
       - title: Computer Class Website
@@ -85,17 +91,17 @@ sections:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
-      - title: Mouse Practice
+      - title: 1. Mouse Practice
         description: Practice Your Mouse Skills
         icon: https://cdn-icons-png.flaticon.com/512/8123/8123279.png
         url: https://mousepractice.gfa-scratchlab.com/
         target: newtab
         statusCheck: true
         id: 0_1364_mousepractice
-      - title: Mouse Accuracy
+      - title: 2. Mouse Accuracy
         description: Improve Mouse Accuracy
         icon: >-
           https://cdn6.aptoide.com/imgs/d/c/a/dcaa5d9c2def075c62be312ccb08f227_icon.png
@@ -103,7 +109,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_1364_mouseaccuracy
-      - title: Dragon Drop
+      - title: 3. Dragon Drop
         description: Drag n Drop the dragon
         icon: >-
           https://play-lh.googleusercontent.com/aMMsrOtVbIHGe4osyvmgYC9Or9mGqRNPemHTcq8euF7SXzRYh7NJqb4QE0uDj2fcdeY=w240-h480-rw
@@ -117,10 +123,10 @@ sections:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
-      - title: Typetastic
+      - title: 1. Typetastic
         description: Starting Point
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-vPuA9npI5JEY8xgPOBu2Z3R87ZHRs6f1UA&s
@@ -128,7 +134,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 0_635_typetastic
-      - title: Gunma Felice Typing Club
+      - title: 2. Gunma Felice Typing Club
         description: Typing Lessons
         icon: >-
           https://assets.clever.com/resource-icons/apps/51e882aa7e05062f54007801/icon_f36db5e.png
@@ -136,7 +142,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_635_gunmafelicetypingclub
-      - title: Monkey Type
+      - title: 3. Monkey Type
         description: Quick Typing Practice
         icon: https://avatars.githubusercontent.com/u/104658077?s=280&v=4
         url: https://gfa-typing.web.app/
@@ -181,7 +187,7 @@ sections:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
   - name: Designing & Internet Safety
     icon: fas fa-pen
@@ -189,7 +195,7 @@ sections:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
       - title: Canva
@@ -212,7 +218,7 @@ sections:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
       - title: Google Docs
@@ -237,7 +243,7 @@ sections:
       sortBy: default
       rows: 1
       cols: 1
-      collapsed: false
+      collapsed: true
       hideForGuests: false
     items:
       - title: Teachable Machine by Google

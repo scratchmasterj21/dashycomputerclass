@@ -77,7 +77,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 0_797_computerclasswebsite
-      - title: Google Classroom
+      - title: 👤Google Classroom
         description: Activities and Student Work
         icon: >-
           https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png
@@ -141,7 +141,7 @@ sections:
         url: https://keyboard.gfa-scratchlab.com/
         target: newtab
         statusCheck: true
-        id: 3_732_letterpractice
+        id: 0_732_letterpractice
       - title: 2. Typetastic
         description: Free Typing Practice
         icon: >-
@@ -149,34 +149,34 @@ sections:
         url: https://typetastic.com/learn.html#unit1
         target: newtab
         statusCheck: true
-        id: 0_732_typetastic
-      - title: 3. Gunma Felice Typing Club
+        id: 1_732_typetastic
+      - title: 👤'3. Gunma Felice Typing Club '
         description: Typing Lessons
         icon: >-
           https://assets.clever.com/resource-icons/apps/51e882aa7e05062f54007801/icon_f36db5e.png
         url: https://gunma-felice.typingclub.com/
         target: newtab
         statusCheck: true
-        id: 1_732_gunmafelicetypingclub
+        id: 2_732_gunmafelicetypingclub
       - title: 4. Monkey Type
         description: Quick Typing Practice
         icon: https://avatars.githubusercontent.com/u/104658077?s=280&v=4
         url: https://gfa-typing.web.app/
         target: newtab
         statusCheck: true
-        id: 2_732_monkeytype
+        id: 3_732_monkeytype
   - name: 4.Programming
     icon: 👨‍💻
     items:
-      - title: Turbo Scratch
-        description: Scratch Programming
+      - title: 👤Turbo Scratch
+        description: 'Scratch Programming '
         icon: >-
           https://appimage.github.io/database/TurboWarp/icons/512x512/turbowarp-desktop.png
         url: https://scratch.gfa-scratchlab.com/
         target: newtab
         statusCheck: true
         id: 0_1253_turboscratch
-      - title: Code.org
+      - title: 👤Code.org
         description: Computer Science Curriculum
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbK6in1dem0kHyllObCallT1VhMcfnmD_4Tg&s
@@ -192,7 +192,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 2_1253_legospike
-      - title: Google Sites
+      - title: 👤Google Sites
         description: Make a Website
         icon: https://img.icons8.com/color/512/google-sites--v2.png
         url: https://sites.google.com/?tgif=c
@@ -214,7 +214,7 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - title: Canva
+      - title: 👤Canva
         description: Unleash your creativity
         icon: https://freelogopng.com/images/all_img/1656733807canva-icon-png.png
         url: https://www.canva.com/
@@ -237,7 +237,7 @@ sections:
       collapsed: true
       hideForGuests: false
     items:
-      - title: Google Docs
+      - title: 👤Google Docs
         description: Create Documents
         icon: >-
           https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Google_Docs_logo_%282014-2020%29.svg/1481px-Google_Docs_logo_%282014-2020%29.svg.png
@@ -245,7 +245,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 0_1963_googledocs
-      - title: Google Sheets
+      - title: 👤Google Sheets
         description: Create Spreadsheets
         icon: >-
           https://static.wikia.nocookie.net/google/images/c/c8/Google_Sheets_logo_%282014-2020%29.svg.png/revision/latest?cb=20210203193228

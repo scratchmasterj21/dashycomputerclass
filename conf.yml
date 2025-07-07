@@ -88,7 +88,7 @@ sections:
       - title: Felice Search
         description: Felice Google Search
         icon: https://i.imgur.com/OKKtilZ.png
-        url: https://felice-search-engine.vercel.app/
+        url: https://search.gfa-scratchlab.com/
         target: newtab
         statusCheck: true
         id: 2_797_felicesearch

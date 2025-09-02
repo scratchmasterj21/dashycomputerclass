@@ -168,10 +168,10 @@ sections:
   - name: 4.Programming
     icon: 👨‍💻
     items:
-      - title: 👤Turbo Scratch
+      - title: 👤Felice Scratch
         description: 'Scratch Programming '
         icon: >-
-          https://appimage.github.io/database/TurboWarp/icons/512x512/turbowarp-desktop.png
+          https://scratch.gfa-scratchlab.com/images/192.png
         url: https://scratch.gfa-scratchlab.com/
         target: newtab
         statusCheck: true

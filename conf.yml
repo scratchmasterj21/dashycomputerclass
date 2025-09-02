@@ -92,7 +92,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 2_797_felicesearch
-    icon: 🤖
+    icon: 🏗️
   - name: 2.Mouse Practice
     icon: 🖱️
     displayData:
@@ -254,7 +254,7 @@ sections:
         statusCheck: true
         id: 1_1963_googlesheets
   - name: 7.AI - Machine Learning
-    icon: 🇦🇮
+    icon: 🤖
     displayData:
       sortBy: default
       rows: 1

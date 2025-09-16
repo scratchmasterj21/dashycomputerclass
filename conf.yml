@@ -109,22 +109,13 @@ sections:
         target: newtab
         statusCheck: true
         id: 0_1460_mousepractice
-      - title: 2. Mouse Accuracy
-        description: Improve Mouse Accuracy
-        icon: >-
-          https://cdn6.aptoide.com/imgs/d/c/a/dcaa5d9c2def075c62be312ccb08f227_icon.png
-        url: https://mouseaccuracy.com/
+      - title: 2. Mouse Practice Games
+        description: Improve Mouse Control
+        icon: 🖱️
+        url: https://mouse-practice-games.netlify.app/
         target: newtab
         statusCheck: true
-        id: 1_1460_mouseaccuracy
-      - title: 3. Dragon Drop
-        description: Drag n Drop the dragon
-        icon: >-
-          https://play-lh.googleusercontent.com/aMMsrOtVbIHGe4osyvmgYC9Or9mGqRNPemHTcq8euF7SXzRYh7NJqb4QE0uDj2fcdeY=w240-h480-rw
-        url: https://www.roomrecess.com/games/DragonDrop/play.html
-        target: newtab
-        statusCheck: true
-        id: 2_1460_dragondrop
+        id: 1_1460_mousepracticegames
   - name: 3.Typing
     icon: ⌨️
     displayData:

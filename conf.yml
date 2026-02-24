@@ -149,7 +149,7 @@ sections:
         target: newtab
         statusCheck: true
         id: 3_732_monkeytype
-  - name: D. Programming
+  - name: D. Programming - AI included
     icon: 👨‍💻
     items:
       - title: 1. 👤Felice Scratch
@@ -228,20 +228,3 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_1963_googlesheets
-  - name: G. AI - Machine Learning
-    icon: 🤖
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: true
-      hideForGuests: false
-    items:
-      - title: 1.Teachable Machine by Google
-        description: 'Machine Learning '
-        icon: >-
-          https://cdn-1.webcatalog.io/catalog/teachable-machine/teachable-machine-icon-filled-256.png?v=1719392793780
-        url: https://teachablemachine.withgoogle.com/
-        target: newtab
-        statusCheck: true
-        id: 0_1889_teachablemachinebygoogle

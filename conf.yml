@@ -182,8 +182,8 @@ sections:
       cols: 1
       collapsed: true
       hideForGuests: false
-  - name: E. Designing
-    icon: 🎨🌐
+  - name: E. Designing and Media
+    icon: 🎨 🎥
     displayData:
       sortBy: default
       rows: 1
@@ -197,6 +197,12 @@ sections:
         url: https://www.canva.com/
         target: newtab
         id: 0_2614_canva
+      - title: 2. Tube-Filter
+        description: Felice Youtube Filter
+        icon: https://www.iconpacks.net/icons/1/free-youtube-icon-123-thumb.png
+        url: https://tube-filter.gfa-scratchlab.com/login
+        target: newtab
+        id: 1_2614_tubefilter
   - name: F. Productivity Tools
     icon: 📈
     displayData:

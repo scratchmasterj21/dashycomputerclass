@@ -228,3 +228,33 @@ sections:
         target: newtab
         statusCheck: true
         id: 1_1963_googlesheets
+  - name: G. Minecraft
+    icon: ⛏️
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: true
+      hideForGuests: false
+    items:
+      - title: 1. Minecraft JS
+        description: Minecraft JavaScript Edition
+        icon: https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_The-Wild-Update_540x300.jpg
+        url: https://minecraft.gfa-scratchlab.com
+        target: newtab
+        statusCheck: true
+        id: 0_9999_minecraftjs
+      - title: 2. Minecraft WASM
+        description: Minecraft WebAssembly Edition
+        icon: https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_The-Wild-Update_540x300.jpg
+        url: https://minecraft-wasm.gfa-scratchlab.com
+        target: newtab
+        statusCheck: true
+        id: 1_9999_minecraftwasm
+      - title: 3. Minecraft Touch
+        description: Minecraft Touch Edition
+        icon: https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_The-Wild-Update_540x300.jpg
+        url: https://minecraftv2.gfa-scratchlab.com
+        target: newtab
+        statusCheck: true
+        id: 2_9999_minecrafttouch

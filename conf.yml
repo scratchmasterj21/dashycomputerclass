@@ -245,7 +245,7 @@ sections:
         statusCheck: true
         id: 0_9999_minecraftjs
       - title: 2. Minecraft WASM
-        description: Minecraft WebAssembly Edition - FASTER than JS!
+        description: FASTER than JS!
         icon: https://www.minecraft.net/content/dam/games/minecraft/key-art/MC_The-Wild-Update_540x300.jpg
         url: https://minecraft-wasm.gfa-scratchlab.com
         target: newtab

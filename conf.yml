@@ -183,7 +183,7 @@ sections:
       collapsed: true
       hideForGuests: false
   - name: E. Designing and Media
-    icon: 🎨 🎥
+    icon: 🎨
     displayData:
       sortBy: default
       rows: 1

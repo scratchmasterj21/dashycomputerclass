@@ -214,8 +214,7 @@ sections:
     items:
       - title: 1. 👤Google Docs
         description: Create Documents
-        icon: >-
-          https://img.freepik.com/premium-vector/google-docs-logo_1273375-883.jpg
+        icon: https://img.freepik.com/premium-vector/google-docs-logo_1273375-883.jpg
         url: https://docs.google.com/document/u/0/?tgif=d
         target: newtab
         statusCheck: true

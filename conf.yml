@@ -6,6 +6,8 @@ pageInfo:
   footerText: Computer Class Dashboard 2025
 appConfig:
   disableConfigurationForNonAdmin: true
+  web:
+    baseUrl: https://dashboard.gfa-scratchlab.com
   auth:
     enableGuestAccess: false
     users:

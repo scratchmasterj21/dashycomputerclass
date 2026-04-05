@@ -7,13 +7,16 @@ pageInfo:
 appConfig:
   disableConfigurationForNonAdmin: true
   auth:
-    enableGuestAccess: true
+    enableGuestAccess: false
     users:
-      - user: john
-        hash: 6e9280cc75574696d8f12836e3105c95b953486101cac00aac1ecd96ebc1565c
+      - user: john.limpiada@felice.ed.jp
+    #    hash: 6e9280cc75574696d8f12836e3105c95b953486101cac00aac1ecd96ebc1565c
         type: admin
-    enableOidc: false
-    oidc: {}
+    enableOidc: true
+    oidc: 
+      clientId: 313123590702-lb7fjsbbqt83t3ljocvpf5la58uqmir4.apps.googleusercontent.com
+      endpoint: https://accounts.google.com
+      scope: openid email profile
     enableHeaderAuth: false
     headerAuth:
       userHeader: REMOTE_USER

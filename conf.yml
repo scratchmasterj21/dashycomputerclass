@@ -66,7 +66,7 @@ appConfig:
       background: '#202020'
       background-darker: '#5c90eb'
 sections:
-  - name: 🔐 First Step: Login to your Felice Google Account (Do this ONLY once on every device (except Chromebook))
+  - name: 🔐 First Step - Login to your Felice Google Account (Do this ONLY once on every device (except Chromebook))
     icon: 🔑
     displayData:
       sortBy: default

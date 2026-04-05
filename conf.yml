@@ -17,7 +17,6 @@ appConfig:
     enableOidc: true
     oidc: 
       clientId: 313123590702-lb7fjsbbqt83t3ljocvpf5la58uqmir4.apps.googleusercontent.com
-      clientSecret: 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
       endpoint: https://accounts.google.com
       scope: openid email profile
     enableHeaderAuth: false

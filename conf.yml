@@ -66,6 +66,22 @@ appConfig:
       background: '#202020'
       background-darker: '#5c90eb'
 sections:
+  - name: 🔐 First Step: Login to your Felice Google Account (Do this ONLY once on every device (except Chromebook))
+    icon: 🔑
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Felice Google Account
+        description: Do this ONLY once on every device (except Chromebook)
+        icon: https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg
+        url: https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=AddSession
+        target: newtab
+        statusCheck: false
+        id: 0_0000_googlelogin
   - name: A. General
     displayData:
       sortBy: default
